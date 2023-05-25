@@ -302,7 +302,7 @@ Team is in the midst of transitioning from its existing api response format to t
 ```
 {
     "status": "success",
-    "matadata": {
+    "metadata": {
         "created": "2023-05-22 10:23:20.318000",
         "duration": 30.016,
         "channels": 2,
