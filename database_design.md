@@ -1,11 +1,18 @@
 ## Considerations for Database Design (WIP):
 
-Because of the varied use cases/needs/objectives/context/constraints of different organisations and teams,
-it is impossible to have a single reference approach for storing transcripts. This document aims to capture relevant considerations and will be continously updated.
+Due to the varied use cases/needs/objectives/context/constraints of different organisations/teams, it is difficult to have a single reference approach for storing transcripts.
+This document aims to capture relevant considerations and will be updated.
 
 ### Table Schemas
 
-The following is an example database table schemas for storing transcripts.
+The following describe database table schemas for storing transcripts.
+
+They describe four tables:
+
+- Transcripts: Stores transcripts of each audio file as individual records
+- TranscriptDetails: Stores detailed transcripts where transcripts of each recording are split by time stamps and user id - essentially a flattened/exploded view of transcription_json column of Transcripts table.
+- AudioFiles: Stores file path and details of audio files to be transcribed
+- Users: Stores information about users
 
 #### Transcripts
 
@@ -27,15 +34,33 @@ Columns:
 - `duration`: duration of the audio file associated with the transcript in `HH:MM:SS` format.
 - `transcription_json`: raw transcription output containing the timestamps of each individual word and other related variables.
 
-##### Transcript Versioning
+#### Transcription Details
 
-Updates to a transcript may be significant and worth preserving. Ammended transcripts can be added to the above table with datetime reflecting when the ammendments were made.
-Hence one audio_file_id can have multiple transcripts having different transcription_text and datetime values.
+Table Name: TranscriptDetails
+
+| transcript_detail_id | transcription_id | start_time | end_time | user_id | sentence                          |
+|----------------------|------------------|------------|----------|---------|-----------------------------------|
+| 1                    | 1                | 1.0        | 2.0      | 101     | Hello, how are you?               |
+| 2                    | 1                | 3.0        | 4.5      | 102     | I'm doing great, thank you!       |
+| 3                    | 1                | 4.5        | 5.0      | 101     | That's good to hear.              |
+| 5                    | 1                | 5.5        | 6.0      | 102     | What's up?                        |
+| 6                    | 1                | 6.0        | 6.7      | 101     | Not much, just chilling.          |
+| 7                    | 1                | 6.5        | 7.5      | 102     | I'll talk to you later.           |
+| 8                    | 1                | 7.0        | 8.0      | 101     | Catch you later!                  |
+| 9                    | 1                | 8.0        | 9.0      | 102     | See you around!                   |
 
 
-There are then two supporting tables for the above - AudioFiles and Users
+Columns: 
 
-#### AudioFiles
+- `transcript_detail_id`: Unique identifier for the transcribed sentence
+- `transcription_id`: foreign key referencing the transcription record in the Transcriptions table
+- `start_time`: seconds indicating the start of the transcribed sentence
+- `end_time`: seconds indicating the end of the transcribed sentence
+- `user_id`: foreign key referencing the user in the Users table
+- `sentence`: transcribed content
+
+
+#### Audio Files
 
 Table Name: AudioFiles
 
@@ -100,9 +125,13 @@ Different technologies will support different paritioning strategies.
 
 ### Privacy
 
-Depending on jurisdictions, there may be legal and ethical constraints on storing transcription data which may contain personally identifiable information (PII).
-Care should be taken to ensure that the database schema and data handling procedures are in compliance with all relevant laws and best practices.
+Depending on data jurisdiction, there may be legal and regulatory constraints on storing transcription data..
+Care should be taken to ensure that the database schema and data handling procedures are in compliance with all relevant laws and best practices for example removal of personally identifiable information (PII) data.
 
-Transcriptions generated may undergo a user/entity detection and replacement/removal step before downstream analysis/processing is done.
+Transcriptions generated may undergo a user/entity detection and replacement/removal process before furtheer analysis/processing is done.
 Entity detection and pii removal is a feature planned for upcoming release of the ins8.ai product.
 
+
+## Feedback
+
+To provide feedback on the above, please email developer@ins8.ai
