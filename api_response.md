@@ -303,7 +303,8 @@ Team is in the midst of transitioning from its existing api response format to t
 {
     "status": "success",
     "metadata": {
-        "created": "2023-05-22 10:23:20.318000",
+        "sample_rate": 16000,
+        "created": "2023-05-30 09:46:10.857865",
         "duration": 30.016,
         "channels": 2,
         "model": "en-sg"
@@ -311,59 +312,59 @@ Team is in the midst of transitioning from its existing api response format to t
     "channels": [
         {
             "alternatives": {
-                "transcript": " call one banking hey hello i would like to check with regards to the uh cashback credit card that i saw on your website my name is mary u not with your bank",
+                "transcript": "call one banking hey hello i would like to check with regards to the uh cashback credit card that i saw on your website my name is mary u not with your bank",
                 "sentences": [
                     {
                         "sentence": "call one banking",
                         "words": [
-                            { "startTime": "1.647s", "endTime": "1.687s", "word": "call", "confidence": 0.49167794},
-                            { "startTime": "1.972s", "endTime": "2.013s", "word": "one", "confidence": 0.9198732},
-                            { "startTime": "2.461s", "endTime": "2.746s", "word": "banking", "confidence": 0.99409324}
+                            { "startTime": "1.647s", "endTime": "1.687s", "word": "call", "confidence": 0.49167794 },
+                            { "startTime": "1.972s", "endTime": "2.013s", "word": "one", "confidence": 0.9198732 },
+                            { "startTime": "2.461s", "endTime": "2.746s", "word": "banking", "confidence": 0.99409324 }
                         ]
                     },
                     {
                         "sentence": "hey hello i would like to check with regards to the uh cashback credit card that i saw on your website",
                         "words": [
-                            { "startTime": "8.401s", "endTime": "8.522s", "word": "hey", "confidence": 0.95223147},
-                            { "startTime": "8.683s", "endTime": "8.925s", "word": "hello", "confidence": 0.92957836},
-                            { "startTime": "9.410s", "endTime": "9.491s", "word": "i", "confidence": 0.59532654},
-                            { "startTime": "9.531s", "endTime": "9.571s", "word": "would", "confidence": 0.48604336},
-                            { "startTime": "9.612s", "endTime": "9.652s", "word": "like", "confidence": 0.99993515},
-                            { "startTime": "9.773s", "endTime": "9.814s", "word": "to", "confidence": 0.9998481},
-                            { "startTime": "9.894s", "endTime": "9.935s", "word": "check", "confidence": 0.99967957},
-                            { "startTime": "10.137s", "endTime": "10.177s", "word": "with", "confidence": 0.9999976},
-                            { "startTime": "10.500s", "endTime": "10.742s", "word": "regards", "confidence": 0.71822035},
-                            { "startTime": "10.904s", "endTime": "10.944s", "word": "to", "confidence": 0.9999819},
-                            { "startTime": "11.388s", "endTime": "11.429s", "word": "the", "confidence": 0.99984443},
-                            { "startTime": "11.630s", "endTime": "11.792s", "word": "uh", "confidence": 0.98684293},
-                            { "startTime": "11.832s", "endTime": "12.236s", "word": "cashback", "confidence": 0.78176856},
-                            { "startTime": "12.357s", "endTime": "12.398s", "word": "credit", "confidence": 0.99994075},
-                            { "startTime": "12.680s", "endTime": "12.801s", "word": "card", "confidence": 0.9999652},
-                            { "startTime": "13.003s", "endTime": "13.043s", "word": "that", "confidence": 0.9999608},
-                            { "startTime": "13.245s", "endTime": "13.286s", "word": "i", "confidence": 0.99999607},
-                            { "startTime": "13.488s", "endTime": "13.609s", "word": "saw", "confidence": 0.9999944},
-                            { "startTime": "13.689s", "endTime": "13.730s", "word": "on", "confidence": 0.9999944},
-                            { "startTime": "13.811s", "endTime": "13.851s", "word": "your", "confidence": 0.99958616},
-                            { "startTime": "14.012s", "endTime": "14.295s", "word": "website", "confidence": 0.9975151}
+                            { "startTime": "8.401s", "endTime": "8.522s", "word": "hey", "confidence": 0.95223147 },
+                            { "startTime": "8.683s", "endTime": "8.925s", "word": "hello", "confidence": 0.92957836 },
+                            { "startTime": "9.410s", "endTime": "9.491s", "word": "i", "confidence": 0.59532654 },
+                            { "startTime": "9.531s", "endTime": "9.571s", "word": "would", "confidence": 0.48604336 },
+                            { "startTime": "9.612s", "endTime": "9.652s", "word": "like", "confidence": 0.99993515 },
+                            { "startTime": "9.773s", "endTime": "9.814s", "word": "to", "confidence": 0.9998481 },
+                            { "startTime": "9.894s", "endTime": "9.935s", "word": "check", "confidence": 0.99967957 },
+                            { "startTime": "10.137s", "endTime": "10.177s", "word": "with", "confidence": 0.9999976 },
+                            { "startTime": "10.500s", "endTime": "10.742s", "word": "regards", "confidence": 0.71822035 },
+                            { "startTime": "10.904s", "endTime": "10.944s", "word": "to", "confidence": 0.9999819 },
+                            { "startTime": "11.388s", "endTime": "11.429s", "word": "the", "confidence": 0.99984443 },
+                            { "startTime": "11.630s", "endTime": "11.792s", "word": "uh", "confidence": 0.98684293 },
+                            { "startTime": "11.832s", "endTime": "12.236s", "word": "cashback", "confidence": 0.78176856 },
+                            { "startTime": "12.357s", "endTime": "12.398s", "word": "credit", "confidence": 0.99994075 },
+                            { "startTime": "12.680s", "endTime": "12.801s", "word": "card", "confidence": 0.9999652 },
+                            { "startTime": "13.003s", "endTime": "13.043s", "word": "that", "confidence": 0.9999608 },
+                            { "startTime": "13.245s", "endTime": "13.286s", "word": "i", "confidence": 0.99999607 },
+                            { "startTime": "13.488s", "endTime": "13.609s", "word": "saw", "confidence": 0.9999944 },
+                            { "startTime": "13.689s", "endTime": "13.730s", "word": "on", "confidence": 0.9999944 },
+                            { "startTime": "13.811s", "endTime": "13.851s", "word": "your", "confidence": 0.99958616 },
+                            { "startTime": "14.012s", "endTime": "14.295s", "word": "website", "confidence": 0.9975151 }
                         ]
                     },
                     {
                         "sentence": "my name is mary",
                         "words": [
-                            { "startTime": "18.264s", "endTime": "18.306s", "word": "my", "confidence": 0.99948597},
-                            { "startTime": "18.432s", "endTime": "18.475s", "word": "name", "confidence": 0.99998605},
-                            { "startTime": "18.601s", "endTime": "18.643s", "word": "is", "confidence": 0.9999833},
-                            { "startTime": "18.812s", "endTime": "19.065s", "word": "mary", "confidence": 0.38311115}
+                            { "startTime": "18.264s", "endTime": "18.306s", "word": "my", "confidence": 0.99948597 },
+                            { "startTime": "18.432s", "endTime": "18.475s", "word": "name", "confidence": 0.99998605 },
+                            { "startTime": "18.601s", "endTime": "18.643s", "word": "is", "confidence": 0.9999833 },
+                            { "startTime": "18.812s", "endTime": "19.065s", "word": "mary", "confidence": 0.38311115 }
                         ]
                     },
                     {
                         "sentence": "u not with your bank",
                         "words": [
-                            { "startTime": "27.902s", "endTime": "27.985s", "word": "u", "confidence": 0.47298968},
-                            { "startTime": "28.274s", "endTime": "28.315s", "word": "not", "confidence": 0.999495},
-                            { "startTime": "28.439s", "endTime": "28.480s", "word": "with", "confidence": 0.99993706},
-                            { "startTime": "28.646s", "endTime": "28.687s", "word": "your", "confidence": 0.99987507},
-                            { "startTime": "28.852s", "endTime": "28.893s", "word": "bank", "confidence": 0.99991226}
+                            { "startTime": "27.902s", "endTime": "27.985s", "word": "u", "confidence": 0.47298968 },
+                            { "startTime": "28.274s", "endTime": "28.315s", "word": "not", "confidence": 0.999495 },
+                            { "startTime": "28.439s", "endTime": "28.480s", "word": "with", "confidence": 0.99993706 },
+                            { "startTime": "28.646s", "endTime": "28.687s", "word": "your", "confidence": 0.99987507 },
+                            { "startTime": "28.852s", "endTime": "28.893s", "word": "bank", "confidence": 0.99991226 }
                         ]
                     }
                 ]
@@ -371,87 +372,87 @@ Team is in the midst of transitioning from its existing api response format to t
         },
         {
             "alternatives": {
-                "transcript": " call one banking hi thank you for calling abc bank uh how may i help you today okay uh just before that can i know how can i address you okay um just before that can i ask you uh are you a current credit card uh holder yourself with any other cards",
+                "transcript": "call one banking hi thank you for calling a a b c bank uh how may i help you today okay uh just before that can i know how can i address you okay um just before that can i ask you uh are you a current credit card uh holder yourself with any other cards",
                 "sentences": [
                     {
                         "sentence": "call one",
                         "words": [
-                            { "startTime": "0.311s", "endTime": "0.353s", "word": "call", "confidence": 0.88362044},
-                            { "startTime": "0.653s", "endTime": "0.695s", "word": "one", "confidence": 0.9977501}
+                            { "startTime": "0.311s", "endTime": "0.353s", "word": "call", "confidence": 0.88362044 },
+                            { "startTime": "0.653s", "endTime": "0.695s", "word": "one", "confidence": 0.9977501 }
                         ]
                     },
                     {
                         "sentence": "banking",
                         "words": [
-                            { "startTime": "1.730s", "endTime": "1.949s", "word": "banking", "confidence": 0.99850637}
+                            { "startTime": "1.730s", "endTime": "1.949s", "word": "banking", "confidence": 0.99850637 }
                         ]
                     },
                     {
                         "sentence": "hi thank you for calling a a b c bank uh how may i help you today",
                         "words": [
-                            { "startTime": "5.001s", "endTime": "5.082s", "word": "hi", "confidence": 0.9683632},
-                            { "startTime": "5.245s", "endTime": "5.326s", "word": "thank", "confidence": 0.9998915},
-                            { "startTime": "5.367s", "endTime": "5.407s", "word": "you", "confidence": 0.9999645},
-                            { "startTime": "5.488s", "endTime": "5.529s", "word": "for", "confidence": 0.99998844},
-                            { "startTime": "5.651s", "endTime": "5.854s", "word": "calling", "confidence": 0.9999397},
-                            { "startTime": "5.935s", "endTime": "5.976s", "word": "a", "confidence": 0.67438424},
-                            { "startTime": "6.179s", "endTime": "6.220s", "word": "a", "confidence": 0.99982893},
-                            { "startTime": "6.342s", "endTime": "6.382s", "word": "b", "confidence": 0.99979657},
-                            { "startTime": "6.464s", "endTime": "6.504s", "word": "c", "confidence": 0.99938667},
-                            { "startTime": "6.626s", "endTime": "6.667s", "word": "bank", "confidence": 0.9999534},
-                            { "startTime": "6.830s", "endTime": "6.992s", "word": "uh", "confidence": 0.8405076},
-                            { "startTime": "7.033s", "endTime": "7.073s", "word": "how", "confidence": 0.99993837},
-                            { "startTime": "7.155s", "endTime": "7.195s", "word": "may", "confidence": 0.9998361},
-                            { "startTime": "7.195s", "endTime": "7.277s", "word": "i", "confidence": 0.9859642},
-                            { "startTime": "7.317s", "endTime": "7.358s", "word": "help", "confidence": 0.99985945},
-                            { "startTime": "7.439s", "endTime": "7.480s", "word": "you", "confidence": 0.99995303},
-                            { "startTime": "7.683s", "endTime": "7.724s", "word": "today", "confidence": 0.99999714}
+                            { "startTime": "5.001s", "endTime": "5.082s", "word": "hi", "confidence": 0.9683632 },
+                            { "startTime": "5.245s", "endTime": "5.326s", "word": "thank", "confidence": 0.9998915 },
+                            { "startTime": "5.367s", "endTime": "5.407s", "word": "you", "confidence": 0.9999645 },
+                            { "startTime": "5.488s", "endTime": "5.529s", "word": "for", "confidence": 0.99998844 },
+                            { "startTime": "5.651s", "endTime": "5.854s", "word": "calling", "confidence": 0.9999397 },
+                            { "startTime": "5.935s", "endTime": "5.976s", "word": "a", "confidence": 0.67438424 },
+                            { "startTime": "6.179s", "endTime": "6.220s", "word": "a", "confidence": 0.99982893 },
+                            { "startTime": "6.342s", "endTime": "6.382s", "word": "b", "confidence": 0.99979657 },
+                            { "startTime": "6.464s", "endTime": "6.504s", "word": "c", "confidence": 0.99938667 },
+                            { "startTime": "6.626s", "endTime": "6.667s", "word": "bank", "confidence": 0.9999534 },
+                            { "startTime": "6.830s", "endTime": "6.992s", "word": "uh", "confidence": 0.8405076 },
+                            { "startTime": "7.033s", "endTime": "7.073s", "word": "how", "confidence": 0.99993837 },
+                            { "startTime": "7.155s", "endTime": "7.195s", "word": "may", "confidence": 0.9998361 },
+                            { "startTime": "7.195s", "endTime": "7.277s", "word": "i", "confidence": 0.9859642 },
+                            { "startTime": "7.317s", "endTime": "7.358s", "word": "help", "confidence": 0.99985945 },
+                            { "startTime": "7.439s", "endTime": "7.480s", "word": "you", "confidence": 0.99995303 },
+                            { "startTime": "7.683s", "endTime": "7.724s", "word": "today", "confidence": 0.99999714 }
                         ]
                     },
                     {
                         "sentence": "okay uh just before that can i know how can i address you",
                         "words": [
-                            { "startTime": "15.685s", "endTime": "15.726s", "word": "okay", "confidence": 0.9998852},
-                            { "startTime": "15.807s", "endTime": "16.012s", "word": "uh", "confidence": 0.9934697},
-                            { "startTime": "16.093s", "endTime": "16.134s", "word": "just", "confidence": 0.9999838},
-                            { "startTime": "16.461s", "endTime": "16.502s", "word": "before", "confidence": 0.9998858},
-                            { "startTime": "16.584s", "endTime": "16.624s", "word": "that", "confidence": 0.9999827},
-                            { "startTime": "16.747s", "endTime": "16.829s", "word": "can", "confidence": 0.99248284},
-                            { "startTime": "16.829s", "endTime": "16.870s", "word": "i", "confidence": 0.99897337},
-                            { "startTime": "16.951s", "endTime": "16.992s", "word": "know", "confidence": 0.99997866},
-                            { "startTime": "17.074s", "endTime": "17.115s", "word": "how", "confidence": 0.9999827},
-                            { "startTime": "17.196s", "endTime": "17.237s", "word": "can", "confidence": 0.9999832},
-                            { "startTime": "17.278s", "endTime": "17.319s", "word": "i", "confidence": 0.99986196},
-                            { "startTime": "17.360s", "endTime": "17.564s", "word": "address", "confidence": 0.8864633},
-                            { "startTime": "17.728s", "endTime": "17.768s", "word": "you", "confidence": 0.99998796}
+                            { "startTime": "15.685s", "endTime": "15.726s", "word": "okay", "confidence": 0.9998852 },
+                            { "startTime": "15.807s", "endTime": "16.012s", "word": "uh", "confidence": 0.9934697 },
+                            { "startTime": "16.093s", "endTime": "16.134s", "word": "just", "confidence": 0.9999838 },
+                            { "startTime": "16.461s", "endTime": "16.502s", "word": "before", "confidence": 0.9998858 },
+                            { "startTime": "16.584s", "endTime": "16.624s", "word": "that", "confidence": 0.9999827 },
+                            { "startTime": "16.747s", "endTime": "16.829s", "word": "can", "confidence": 0.99248284 },
+                            { "startTime": "16.829s", "endTime": "16.870s", "word": "i", "confidence": 0.99897337 },
+                            { "startTime": "16.951s", "endTime": "16.992s", "word": "know", "confidence": 0.99997866 },
+                            { "startTime": "17.074s", "endTime": "17.115s", "word": "how", "confidence": 0.9999827 },
+                            { "startTime": "17.196s", "endTime": "17.237s", "word": "can", "confidence": 0.9999832 },
+                            { "startTime": "17.278s", "endTime": "17.319s", "word": "i", "confidence": 0.99986196 },
+                            { "startTime": "17.360s", "endTime": "17.564s", "word": "address", "confidence": 0.8864633 },
+                            { "startTime": "17.728s", "endTime": "17.768s", "word": "you", "confidence": 0.99998796 }
                         ]
                     },
                     {
                         "sentence": "okay um just before that can i ask you uh are you a current credit card uh holder yourself with any other cards",
                         "words": [
-                            { "startTime": "21.023s", "endTime": "21.064s", "word": "okay", "confidence": 0.9999542},
-                            { "startTime": "21.266s", "endTime": "21.387s", "word": "um", "confidence": 0.99952483},
-                            { "startTime": "22.359s", "endTime": "22.399s", "word": "just", "confidence": 0.999977},
-                            { "startTime": "22.682s", "endTime": "22.723s", "word": "before", "confidence": 0.9999509},
-                            { "startTime": "22.844s", "endTime": "22.885s", "word": "that", "confidence": 0.99999034},
-                            { "startTime": "23.006s", "endTime": "23.047s", "word": "can", "confidence": 0.99997246},
-                            { "startTime": "23.087s", "endTime": "23.168s", "word": "i", "confidence": 0.69025975},
-                            { "startTime": "23.209s", "endTime": "23.330s", "word": "ask", "confidence": 0.9999938},
-                            { "startTime": "23.370s", "endTime": "23.411s", "word": "you", "confidence": 0.99989057},
-                            { "startTime": "23.492s", "endTime": "23.694s", "word": "uh", "confidence": 0.96052206},
-                            { "startTime": "23.775s", "endTime": "23.816s", "word": "are", "confidence": 0.9999256},
-                            { "startTime": "23.896s", "endTime": "23.937s", "word": "you", "confidence": 0.99992883},
-                            { "startTime": "24.058s", "endTime": "24.099s", "word": "a", "confidence": 0.9999484},
-                            { "startTime": "24.342s", "endTime": "24.382s", "word": "current", "confidence": 0.99995613},
-                            { "startTime": "24.706s", "endTime": "24.746s", "word": "credit", "confidence": 0.9999758},
-                            { "startTime": "25.070s", "endTime": "25.191s", "word": "card", "confidence": 0.9996946},
-                            { "startTime": "25.232s", "endTime": "25.434s", "word": "uh", "confidence": 0.97591966},
-                            { "startTime": "25.556s", "endTime": "25.718s", "word": "holder", "confidence": 0.99980694},
-                            { "startTime": "25.798s", "endTime": "26.041s", "word": "yourself", "confidence": 0.9964786},
-                            { "startTime": "26.203s", "endTime": "26.244s", "word": "with", "confidence": 0.99993837},
-                            { "startTime": "26.365s", "endTime": "26.405s", "word": "any", "confidence": 0.9999598},
-                            { "startTime": "26.608s", "endTime": "26.648s", "word": "other", "confidence": 0.99999416},
-                            { "startTime": "26.891s", "endTime": "27.134s", "word": "cards", "confidence": 0.9852808}
+                            { "startTime": "21.023s", "endTime": "21.064s", "word": "okay", "confidence": 0.9999542 },
+                            { "startTime": "21.266s", "endTime": "21.387s", "word": "um", "confidence": 0.99952483 },
+                            { "startTime": "22.359s", "endTime": "22.399s", "word": "just", "confidence": 0.999977 },
+                            { "startTime": "22.682s", "endTime": "22.723s", "word": "before", "confidence": 0.9999509 },
+                            { "startTime": "22.844s", "endTime": "22.885s", "word": "that", "confidence": 0.99999034 },
+                            { "startTime": "23.006s", "endTime": "23.047s", "word": "can", "confidence": 0.99997246 },
+                            { "startTime": "23.087s", "endTime": "23.168s", "word": "i", "confidence": 0.69025975 },
+                            { "startTime": "23.209s", "endTime": "23.330s", "word": "ask", "confidence": 0.9999938 },
+                            { "startTime": "23.370s", "endTime": "23.411s", "word": "you", "confidence": 0.99989057 },
+                            { "startTime": "23.492s", "endTime": "23.694s", "word": "uh", "confidence": 0.96052206 },
+                            { "startTime": "23.775s", "endTime": "23.816s", "word": "are", "confidence": 0.9999256 },
+                            { "startTime": "23.896s", "endTime": "23.937s", "word": "you", "confidence": 0.99992883 },
+                            { "startTime": "24.058s", "endTime": "24.099s", "word": "a", "confidence": 0.9999484 },
+                            { "startTime": "24.342s", "endTime": "24.382s", "word": "current", "confidence": 0.99995613 },
+                            { "startTime": "24.706s", "endTime": "24.746s", "word": "credit", "confidence": 0.9999758 },
+                            { "startTime": "25.070s", "endTime": "25.191s", "word": "card", "confidence": 0.9996946 },
+                            { "startTime": "25.232s", "endTime": "25.434s", "word": "uh", "confidence": 0.97591966 },
+                            { "startTime": "25.556s", "endTime": "25.718s", "word": "holder", "confidence": 0.99980694 },
+                            { "startTime": "25.798s", "endTime": "26.041s", "word": "yourself", "confidence": 0.9964786 },
+                            { "startTime": "26.203s", "endTime": "26.244s", "word": "with", "confidence": 0.99993837 },
+                            { "startTime": "26.365s", "endTime": "26.405s", "word": "any", "confidence": 0.9999598 },
+                            { "startTime": "26.608s", "endTime": "26.648s", "word": "other", "confidence": 0.99999416 },
+                            { "startTime": "26.891s", "endTime": "27.134s", "word": "cards", "confidence": 0.9852808 }
                         ]
                     }
                 ]
@@ -465,8 +466,8 @@ Team is in the midst of transitioning from its existing api response format to t
 It includes:
   - 'status' section for the status of the job request
   - 'metadata' section containing general information such as transcription creation datatime, audio duration, language, etc
-  - transcription results is organised in a hierachy manner with the following order
-    1. Channel
+  - 'channels' section where transcription results are stored with the following order
+    1. (full) transcript
       - shows the entire transcription text of the entire duration of the audio for the channel
     2. Sentence
       - transcription text of the sentence detected
@@ -476,5 +477,5 @@ It includes:
       - word level confidence score
       - speaker tag if selected
 
-If there are two channels, the entire hierachy of channel, sentence and word level outputs are repeated for the different channels transcribed.
+If there are two or more channels, the entire hierachy of channel, sentence and word level outputs will be repeated accordingly.
 
