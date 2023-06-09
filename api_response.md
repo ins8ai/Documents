@@ -1,7 +1,7 @@
 
 # API Response
 
-In the below, we review the api response formats provided by various vendors and share the response format ins8.ai will be adopting in version 2.0.0.
+In the below, we review the api response formats provided by various vendors and share the response format ins8.ai will be adopting in version 1.8.0.
 
 ## API response formats of other STT/ASR vendors
 
