@@ -297,7 +297,7 @@ Team is in the midst of transitioning from its existing api response format to t
 
 ```
 
-### Planned Release (ver. 2.0.0)
+### Planned Release (ver. 1.8.0)
 
 ```
 {
